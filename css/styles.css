@@ -1,0 +1,31 @@
+*body{
+    background-color: rgb(214, 199, 62);
+}
+#value{
+    text-align: center;
+    margin-left: 10rem;
+    padding-top: 10rem;  
+}
+h1{
+    text-decoration: dashed;
+    color:blue
+}
+
+.container{
+    align-items: flex-end;
+    margin-top: 2rem;
+    margin-left: 400px;
+}
+.btn{
+    max-width: 10rem;
+
+}
+.decrease{
+    background-color: aqua;
+}
+.reset{
+    background-color:green
+}
+.increase{
+    background-color:red
+}
