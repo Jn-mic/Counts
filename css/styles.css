@@ -2,9 +2,8 @@ body{
     background-color: rgb(243, 242, 231);
 }
 #value{
-    text-align: center;
     margin-left: 10rem;
-    padding-top: 10rem;  
+    padding-top: 30rem;  
 }
 h1{
     text-decoration: dashed;
