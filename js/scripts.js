@@ -2,10 +2,10 @@
 let count = 0;
 
 const value = document.querySelector('#value');
-const buttons = document.querySelectorAll('.btn');
+const sam = document.querySelectorAll('.btn');
 
-buttons.forEach(function(){
-    btn.addEventLister('click',function(e){
+sam.forEach(function(btn){
+    btn.addEventListener('click',function(e){
         const styles = e.currentTarget.classList;
         if(styles.contains('decrease')){
             count --;
@@ -16,8 +16,18 @@ buttons.forEach(function(){
         else{
             count = 0;
         }
+        if(count > 0){
+            value.style.color= 'green';
+        }
+        if(count < 0){
+            value.style.color= 'grey';
+        }
+        if(count == 0){
+            value.style.color= 'blue';
+        }
         value.textContent = count;
     });
+    
 });
   
 
