@@ -1,10 +1,10 @@
 //set count value//
 let count = 0;
 
-const value= document.querySelector('#value');
-const btns= document.querySelectorAll('.btn');
+const value = document.querySelector('#value');
+const buttons = document.querySelectorAll('.btn');
 
-btns.forEach(function(){
+buttons.forEach(function(){
     btn.addEventLister('click',function(e){
         const styles = e.currentTarget.classList;
         if(styles.contains('decrease')){
@@ -19,3 +19,5 @@ btns.forEach(function(){
         value.textContent = count;
     });
 });
+  
+
