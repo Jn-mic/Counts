@@ -18,12 +18,15 @@ sam.forEach(function(btn){
         }
         if(count > 0){
             value.style.color= 'green';
+            value.style.background='white';
         }
         if(count < 0){
             value.style.color= 'orange';
+            value.style.background='black';
         }
         if(count === 0){
             value.style.color= 'red';
+            value.style.background='gold';
         }
         value.textContent = count;
     });
