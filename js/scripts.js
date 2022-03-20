@@ -22,7 +22,7 @@ sam.forEach(function(btn){
         if(count < 0){
             value.style.color= 'grey';
         }
-        if(count == 0){
+        if(count === 0){
             value.style.color= 'blue';
         }
         value.textContent = count;
