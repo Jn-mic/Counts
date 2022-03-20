@@ -20,10 +20,10 @@ sam.forEach(function(btn){
             value.style.color= 'green';
         }
         if(count < 0){
-            value.style.color= 'grey';
+            value.style.color= 'orange';
         }
         if(count === 0){
-            value.style.color= 'blue';
+            value.style.color= 'red';
         }
         value.textContent = count;
     });
