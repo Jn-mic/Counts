@@ -22,7 +22,7 @@ sam.forEach(function(btn){
         }
         if(count < 0){
             value.style.color= 'orange';
-            value.style.background='black';
+            value.style.background='black'; 
         }
         if(count === 0){
             value.style.color= 'red';
@@ -33,4 +33,4 @@ sam.forEach(function(btn){
     
 });
   
-
+var cl = new cloudinary.Cloudinary({cloud_name: "transformers", secure: true});
