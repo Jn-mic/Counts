@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(231, 240, 235);
+    background-color: rgb(135, 233, 179);
 }
 #value{
     margin-left: 30rem;
@@ -7,7 +7,7 @@ body{
     align-items:center;
     padding-top: 3vh;  
     height: 10vh;
-    background: rgb(230, 210, 221);
+    background: rgb(228, 224, 226);
 
 }
 h1{
@@ -35,6 +35,6 @@ btn{
 
 }
 .decrease, .increase, .reset{
-    background-color: rgb(170, 110, 152);
+    background-color: rgb(154, 170, 110);
     margin-left: 2vh;
 }

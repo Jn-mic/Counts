@@ -14,20 +14,24 @@ sam.forEach(function(btn){
             count ++;
         }
         else{
+            styles.contains('reset')
             count = 0;
         }
         if(count > 0){
             value.style.color= 'green';
+            value.style.background='white';
         }
         if(count < 0){
-            value.style.color= 'grey';
+            value.style.color= 'orange';
+            value.style.background='black'; 
         }
         if(count === 0){
-            value.style.color= 'blue';
+            value.style.color= 'red';
+            value.style.background='gold';
         }
         value.textContent = count;
     });
     
 });
   
-
+var cl = new cloudinary.Cloudinary({cloud_name: "transformers", secure: true});
